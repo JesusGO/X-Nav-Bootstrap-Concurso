@@ -1,0 +1,116 @@
+.jumbo h1{font-size: 70px;}
+.gradient-b{
+  background: rgba(1,48,102,1);
+  background: -moz-linear-gradient(45deg, rgba(1,48,102,1) 0%, rgba(26,26,26,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(1,48,102,1)), color-stop(100%, rgba(26,26,26,1)));
+  background: -webkit-linear-gradient(45deg, rgba(1,48,102,1) 0%, rgba(26,26,26,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(1,48,102,1) 0%, rgba(26,26,26,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(1,48,102,1) 0%, rgba(26,26,26,1) 100%);
+  background: linear-gradient(45deg, rgba(1,48,102,1) 0%, rgba(26,26,26,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#013066', endColorstr='#1a1a1a', GradientType=1 );
+}
+.navbar-nav li a{
+  color: white!important;
+}
+.nomar{
+  margin: 0px;
+}
+.nopad{
+  padding: 0px;
+}
+.pad10{
+  padding: 10px;
+}
+.pad30{
+  padding: 30px;
+}
+.row-centered{
+  text-align: center;
+  padding: 10px;
+}
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+.whiteb{
+  background-color: white;
+}
+.whitec{
+  color: white!important;
+}
+.cinab{
+  background-color: #f5f8fa;
+}
+#cover-main{
+  background: rgba(1,48,102,1);
+  background: -moz-linear-gradient(45deg, rgba(1,48,102,1) 0%, rgba(26,26,26,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(1,48,102,1)), color-stop(100%, rgba(26,26,26,1)));
+  background: -webkit-linear-gradient(45deg, rgba(1,48,102,1) 0%, rgba(26,26,26,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(1,48,102,1) 0%, rgba(26,26,26,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(1,48,102,1) 0%, rgba(26,26,26,1) 100%);
+  background: linear-gradient(45deg, rgba(1,48,102,1) 0%, rgba(26,26,26,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#013066', endColorstr='#1a1a1a', GradientType=1 );
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: -10;
+}
+#particules{
+  height: 100vh;
+  z-index: -9;
+}
+#cover{
+  height: 50vh;
+}
+.jumbo{
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0px;
+}
+.jumbo-text{
+  top: 0px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  z-index: 4;
+  top: 0px;
+  z-index: 4;
+}
+.intro-icon {
+  font-size: 60px;
+  color: #022f62;
+  font-weight: bold;
+}
+.list-group a{
+  font-size: 18px;
+  color: #022f62;
+}
+.list-group a:hover{
+  background-color: #f5f8fa;
+}
+footer p{
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+@media only screen and (max-width : 750px){
+  .navbar-brand{
+    font-size: 14px;
+  }
+  .jumbo h1{
+    font-size:40px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .list-group a{
+    font-size: 14px;
+  }
+  .lead{
+    font-size: 16px;
+  }
+}
